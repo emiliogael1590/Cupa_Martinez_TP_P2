@@ -18,8 +18,8 @@ namespace SistemaGinmasio.Tests
             entrenador.AsignarUsuarios(usuario2);
 
             //Assert
-            Assert.NotEmpty(entrenador.ObtenerUsuariosAsignados());
-            Assert.Contains(usuario2, entrenador.ObtenerUsuariosAsignados());
+            Assert.NotEmpty(entrenador.ObtenerListaUsuarios());
+            Assert.Contains(usuario2, entrenador.ObtenerListaUsuarios());
 
         }
     }
